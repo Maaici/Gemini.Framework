@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gemini.Core", "Gemini.Core.csproj", "{3F8407C9-D808-4199-9EA5-1F24B7A86F08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gemini.Core", "Gemini.Core.csproj", "{3F8407C9-D808-4199-9EA5-1F24B7A86F08}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1、application", "1、application", "{B72D2F73-F8CB-4C15-A271-AE1EF091DF79}"
 EndProject
@@ -15,19 +15,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4、Repositories", "4、Rep
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5、Infrastructures", "5、Infrastructures", "{CA798735-85BF-4D70-B2C3-01C9B8F36614}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainModels", "..\DomainModels\DomainModels.csproj", "{5B1EF5EC-D80E-4F2E-B455-9AE26255CC95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainModels", "..\DomainModels\DomainModels.csproj", "{5B1EF5EC-D80E-4F2E-B455-9AE26255CC95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModels", "..\ViewModels\ViewModels.csproj", "{FFD65937-092C-4AC4-A411-D3DAEF91E556}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewModels", "..\ViewModels\ViewModels.csproj", "{FFD65937-092C-4AC4-A411-D3DAEF91E556}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IServices", "..\IServices\IServices.csproj", "{7AB75380-24F3-4F53-9C5D-A16ACC5C18D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IServices", "..\IServices\IServices.csproj", "{7AB75380-24F3-4F53-9C5D-A16ACC5C18D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "..\Services\Services.csproj", "{31385A6F-1995-4068-93A6-746772725C87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "..\Services\Services.csproj", "{31385A6F-1995-4068-93A6-746772725C87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRepositories", "..\IRepositories\IRepositories.csproj", "{F347365C-7EFD-41FE-BA84-9FE273BCDD45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IRepositories", "..\IRepositories\IRepositories.csproj", "{F347365C-7EFD-41FE-BA84-9FE273BCDD45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "..\Repositories\Repositories.csproj", "{2E64FCDF-D554-44CE-B3EC-DFCC5E5B4DD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories", "..\Repositories\Repositories.csproj", "{2E64FCDF-D554-44CE-B3EC-DFCC5E5B4DD1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6、Test", "6、Test", "{F56DC1E9-C806-488A-9DA3-3BB4A81F6781}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Helpers", "..\Helpers\Helpers.csproj", "{441AB1B4-6C83-499C-9EE1-39E74324D3C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Addr", "..\Addr\Addr.csproj", "{B91DAEDB-F301-44EA-A77C-B00446F1B055}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGenerater", "..\CodeGenerater\CodeGenerater.csproj", "{2F392D8C-B239-498A-8D42-53543665B011}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{2E64FCDF-D554-44CE-B3EC-DFCC5E5B4DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E64FCDF-D554-44CE-B3EC-DFCC5E5B4DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E64FCDF-D554-44CE-B3EC-DFCC5E5B4DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{441AB1B4-6C83-499C-9EE1-39E74324D3C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441AB1B4-6C83-499C-9EE1-39E74324D3C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441AB1B4-6C83-499C-9EE1-39E74324D3C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441AB1B4-6C83-499C-9EE1-39E74324D3C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B91DAEDB-F301-44EA-A77C-B00446F1B055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91DAEDB-F301-44EA-A77C-B00446F1B055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91DAEDB-F301-44EA-A77C-B00446F1B055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91DAEDB-F301-44EA-A77C-B00446F1B055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F392D8C-B239-498A-8D42-53543665B011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F392D8C-B239-498A-8D42-53543665B011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F392D8C-B239-498A-8D42-53543665B011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F392D8C-B239-498A-8D42-53543665B011}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,6 +93,8 @@ Global
 		{31385A6F-1995-4068-93A6-746772725C87} = {0B44FCDA-0609-48C3-A404-D018096EDB35}
 		{F347365C-7EFD-41FE-BA84-9FE273BCDD45} = {9079AF84-2253-44A7-BED3-5278F6D72A8E}
 		{2E64FCDF-D554-44CE-B3EC-DFCC5E5B4DD1} = {9079AF84-2253-44A7-BED3-5278F6D72A8E}
+		{441AB1B4-6C83-499C-9EE1-39E74324D3C1} = {CA798735-85BF-4D70-B2C3-01C9B8F36614}
+		{2F392D8C-B239-498A-8D42-53543665B011} = {CA798735-85BF-4D70-B2C3-01C9B8F36614}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61A69985-D768-4A43-B374-2E56D4D525AF}
